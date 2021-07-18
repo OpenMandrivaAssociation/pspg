@@ -1,6 +1,6 @@
 Summary:	A unix pager optimized for psql
 Name:		pspg
-Version:	5.0.5
+Version:	5.1.1
 Release:	1
 License:	BSD
 URL:		https://github.com/okbob/%{name}
