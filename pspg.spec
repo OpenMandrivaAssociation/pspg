@@ -5,6 +5,11 @@ Release:	1
 License:	BSD
 URL:		https://github.com/okbob/%{name}
 Source:		https://github.com/okbob/%{name}/archive/%{version}/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: ncurses-devel 
 BuildRequires: readline-devel
 BuildRequires: pkgconfig(libpq)
